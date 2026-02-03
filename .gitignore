@@ -1,0 +1,14 @@
+# Ignore venv directory
+venv/
+
+# Allow notebooks
+!*.ipynb
+
+# Allow data folder and its contents
+!data/
+!data/**
+!notebooks/
+!notebooks/**
+
+# Allow .gitignore itself
+!.gitignore
